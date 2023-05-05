@@ -1,4 +1,4 @@
-# Extraindo e Compactando arquivos zip com Python
+# Extraindo e Compactando arquivos zip com Python.
 from zipfile import ZipFile
 
 with ZipFile("arquivo_compactado.zip", "w") as zip:
